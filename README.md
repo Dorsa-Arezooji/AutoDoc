@@ -4,7 +4,7 @@ A medical ontology using patient info to infer what diseases they might have
 ## Overview
 The purpose of this ontology is to infer what diseases a person might have based on available information about their symptoms, blood tests they have taken, and other personal details (height, weight, age). In a way, this ontology functions as an automated doctor (__*AutoDoc*__), diagnosing patients based on their symptoms and medical history.
 Another point of interest is that the ontology also takes into account whether or not two patients have been in the same environment, or have had close contact or are related to each other. This helps to discover the risks one patient might be at, by considering common factors between them and other patients. 
-* __*Please refer to the [user guide](https://github.com/Dorsa-Arezooji/AutoDoc/AutoDoc_Manual.pdf) for more information.*__
+* __*Please refer to the [user guide](https://github.com/Dorsa-Arezooji/AutoDoc/blob/master/AutoDoc_Manual.pdf) for more information.*__
 
 ## Applications
 * This ontology could be of use to medical facilities such as clinics, hospitals, private practices, etc. Along with the patients’ information database, this ontology helps **identify eminent diseases** in patients. 
