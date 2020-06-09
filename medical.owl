@@ -1,0 +1,2042 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/dorsa/ontologies/medical"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/dorsa/ontologies/medical">
+    <Prefix name="" IRI="http://www.semanticweb.org/dorsa/ontologies/medical"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#At_risk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Body_part"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemical_substance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contagious"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Critical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environmental_Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Female"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hereditary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Home"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infectious_Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Male"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neurological"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psychological"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Work_place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#non_Hereditary"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#affects"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bleeding_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contaminated_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#feels_pain_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_contact_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_coworker"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_environment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_primary_cause"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_symptom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_traveled_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_at_risk_for"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_close_relative_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_diagnosed_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_distant_relative_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_environment_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_exposed_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_related_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lives_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lives_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#works_at"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#BMI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CA125"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CRP"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#LDL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#creatinine"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_fever"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#height"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#needs_psychological_consultation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#premenopausal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#smoker"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#temperature"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#weight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dengue_fever"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Malaysia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parkinsons_disease"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pied_Piper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#abdomin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anosmia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cadmium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cadmium_poisoning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#coronary_heart_disease"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cough"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#depression"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dizziness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#female_reproductive_organ_cancer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#food_poisoning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gums"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#head"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#memory_loss"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tremor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vomiting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#weakness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#221A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#221B"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#At_risk"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#is_at_risk_for"/>
+                <Class IRI="#Disease"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Contagious"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#is_diagnosed_with"/>
+                <Class IRI="#Infectious_Disease"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Critical"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#is_at_risk_for"/>
+                <Class IRI="#Disease"/>
+            </ObjectMinCardinality>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#is_diagnosed_with"/>
+                <Class IRI="#Disease"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Sick"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#is_diagnosed_with"/>
+                <Class IRI="#Disease"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Work_place"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Place"/>
+            <ObjectComplementOf>
+                <Class IRI="#Home"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#At_risk"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contagious"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Critical"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environmental_Disease"/>
+        <Class IRI="#non_Hereditary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hereditary"/>
+        <Class IRI="#Disease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Home"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infectious_Disease"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#non_Hereditary"/>
+            <ObjectComplementOf>
+                <Class IRI="#Environmental_Disease"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neurological"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Symptom"/>
+            <ObjectComplementOf>
+                <ObjectUnionOf>
+                    <Class IRI="#Physical"/>
+                    <Class IRI="#Psychological"/>
+                </ObjectUnionOf>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Symptom"/>
+            <ObjectComplementOf>
+                <ObjectUnionOf>
+                    <Class IRI="#Neurological"/>
+                    <Class IRI="#Psychological"/>
+                </ObjectUnionOf>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Psychological"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Symptom"/>
+            <ObjectComplementOf>
+                <ObjectUnionOf>
+                    <Class IRI="#Neurological"/>
+                    <Class IRI="#Physical"/>
+                </ObjectUnionOf>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sick"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Work_place"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non_Hereditary"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Disease"/>
+            <ObjectComplementOf>
+                <Class IRI="#Hereditary"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Female"/>
+        <Class IRI="#Male"/>
+    </DisjointClasses>
+    <DisjointUnion>
+        <Class IRI="#Person"/>
+        <Class IRI="#Female"/>
+        <Class IRI="#Male"/>
+    </DisjointUnion>
+    <ClassAssertion>
+        <Class IRI="#Infectious_Disease"/>
+        <NamedIndividual IRI="#Dengue_fever"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hereditary"/>
+        <NamedIndividual IRI="#Parkinsons_disease"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Neurological"/>
+        <NamedIndividual IRI="#anosmia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Environmental_Disease"/>
+        <NamedIndividual IRI="#cadmium_poisoning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease"/>
+        <NamedIndividual IRI="#coronary_heart_disease"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical"/>
+        <NamedIndividual IRI="#cough"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Psychological"/>
+        <NamedIndividual IRI="#depression"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical"/>
+        <NamedIndividual IRI="#dizziness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hereditary"/>
+        <NamedIndividual IRI="#female_reproductive_organ_cancer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Infectious_Disease"/>
+        <NamedIndividual IRI="#food_poisoning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Neurological"/>
+        <NamedIndividual IRI="#memory_loss"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical"/>
+        <NamedIndividual IRI="#pain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Male"/>
+        <NamedIndividual IRI="#patient1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Female"/>
+        <NamedIndividual IRI="#patient2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Female"/>
+        <NamedIndividual IRI="#patient3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Male"/>
+        <NamedIndividual IRI="#patient4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Male"/>
+        <NamedIndividual IRI="#patient5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Male"/>
+        <NamedIndividual IRI="#patient6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Male"/>
+        <NamedIndividual IRI="#patient7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Male"/>
+        <NamedIndividual IRI="#patient8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical"/>
+        <NamedIndividual IRI="#tremor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical"/>
+        <NamedIndividual IRI="#vomiting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical"/>
+        <NamedIndividual IRI="#weakness"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Dengue_fever"/>
+        <NamedIndividual IRI="#Parkinsons_disease"/>
+        <NamedIndividual IRI="#cadmium_poisoning"/>
+        <NamedIndividual IRI="#coronary_heart_disease"/>
+        <NamedIndividual IRI="#female_reproductive_organ_cancer"/>
+        <NamedIndividual IRI="#food_poisoning"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#patient1"/>
+        <NamedIndividual IRI="#patient2"/>
+        <NamedIndividual IRI="#patient3"/>
+        <NamedIndividual IRI="#patient4"/>
+        <NamedIndividual IRI="#patient5"/>
+        <NamedIndividual IRI="#patient6"/>
+        <NamedIndividual IRI="#patient7"/>
+        <NamedIndividual IRI="#patient8"/>
+        <NamedIndividual IRI="#patient9"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_primary_cause"/>
+        <NamedIndividual IRI="#cadmium_poisoning"/>
+        <NamedIndividual IRI="#cadmium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#works_at"/>
+        <NamedIndividual IRI="#patient1"/>
+        <NamedIndividual IRI="#Pied_Piper"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#feels_pain_in"/>
+        <NamedIndividual IRI="#patient2"/>
+        <NamedIndividual IRI="#abdomin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_symptom"/>
+        <NamedIndividual IRI="#patient2"/>
+        <NamedIndividual IRI="#vomiting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_close_relative_of"/>
+        <NamedIndividual IRI="#patient2"/>
+        <NamedIndividual IRI="#patient3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#lives_at"/>
+        <NamedIndividual IRI="#patient2"/>
+        <NamedIndividual IRI="#221A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#feels_pain_in"/>
+        <NamedIndividual IRI="#patient3"/>
+        <NamedIndividual IRI="#abdomin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#feels_pain_in"/>
+        <NamedIndividual IRI="#patient4"/>
+        <NamedIndividual IRI="#chest"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#feels_pain_in"/>
+        <NamedIndividual IRI="#patient4"/>
+        <NamedIndividual IRI="#head"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_symptom"/>
+        <NamedIndividual IRI="#patient4"/>
+        <NamedIndividual IRI="#cough"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_symptom"/>
+        <NamedIndividual IRI="#patient4"/>
+        <NamedIndividual IRI="#dizziness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_symptom"/>
+        <NamedIndividual IRI="#patient4"/>
+        <NamedIndividual IRI="#weakness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#works_at"/>
+        <NamedIndividual IRI="#patient4"/>
+        <NamedIndividual IRI="#Pied_Piper"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#lives_at"/>
+        <NamedIndividual IRI="#patient5"/>
+        <NamedIndividual IRI="#221B"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_symptom"/>
+        <NamedIndividual IRI="#patient6"/>
+        <NamedIndividual IRI="#anosmia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_symptom"/>
+        <NamedIndividual IRI="#patient6"/>
+        <NamedIndividual IRI="#depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_symptom"/>
+        <NamedIndividual IRI="#patient6"/>
+        <NamedIndividual IRI="#tremor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_close_relative_of"/>
+        <NamedIndividual IRI="#patient6"/>
+        <NamedIndividual IRI="#patient4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_distant_relative_of"/>
+        <NamedIndividual IRI="#patient6"/>
+        <NamedIndividual IRI="#patient7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bleeding_in"/>
+        <NamedIndividual IRI="#patient7"/>
+        <NamedIndividual IRI="#gums"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bleeding_in"/>
+        <NamedIndividual IRI="#patient7"/>
+        <NamedIndividual IRI="#nose"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_symptom"/>
+        <NamedIndividual IRI="#patient7"/>
+        <NamedIndividual IRI="#pain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_traveled_to"/>
+        <NamedIndividual IRI="#patient7"/>
+        <NamedIndividual IRI="#Malaysia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#lives_at"/>
+        <NamedIndividual IRI="#patient7"/>
+        <NamedIndividual IRI="#221B"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_distant_relative_of"/>
+        <NamedIndividual IRI="#patient8"/>
+        <NamedIndividual IRI="#patient4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#lives_at"/>
+        <NamedIndividual IRI="#patient9"/>
+        <NamedIndividual IRI="#221A"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#height"/>
+        <NamedIndividual IRI="#patient1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.72</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#patient1"/>
+        <Literal>Richard Hendricks</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#patient1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">62.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CRP"/>
+        <NamedIndividual IRI="#patient2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">110</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LDL"/>
+        <NamedIndividual IRI="#patient2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">175</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#patient2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">57</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#height"/>
+        <NamedIndividual IRI="#patient2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.53</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#premenopausal"/>
+        <NamedIndividual IRI="#patient2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#smoker"/>
+        <NamedIndividual IRI="#patient2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#patient2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">84.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CA125"/>
+        <NamedIndividual IRI="#patient3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#patient3"/>
+        <Literal>April Ludgate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#creatinine"/>
+        <NamedIndividual IRI="#patient4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">309</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#patient5"/>
+        <Literal>Gregory House</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#patient6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">66</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#patient6"/>
+        <Literal>Creed Bratton</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#patient7"/>
+        <Literal>James Wilson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#temperature"/>
+        <NamedIndividual IRI="#patient7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">39.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LDL"/>
+        <NamedIndividual IRI="#patient8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">185</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#patient8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">48</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#height"/>
+        <NamedIndividual IRI="#patient8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.82</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#patient8"/>
+        <Literal>Ron Swanson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#smoker"/>
+        <NamedIndividual IRI="#patient8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#patient8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">105.0</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_coworker"/>
+        <ObjectProperty IRI="#has_contact_with"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_close_relative_of"/>
+        <ObjectProperty IRI="#is_related_to"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_distant_relative_of"/>
+        <ObjectProperty IRI="#is_related_to"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#lives_at"/>
+        <ObjectProperty IRI="#has_environment"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#lives_with"/>
+        <ObjectProperty IRI="#has_contact_with"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#works_at"/>
+        <ObjectProperty IRI="#has_environment"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#affects"/>
+        <ObjectProperty IRI="#is_diagnosed_with"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_environment"/>
+        <ObjectProperty IRI="#is_environment_of"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_primary_cause"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#lives_at"/>
+    </FunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#has_contact_with"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#has_coworker"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#is_close_relative_of"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#is_distant_relative_of"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#is_related_to"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#lives_with"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#affects"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#bleeding_in"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contaminated_with"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#feels_pain_in"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_contact_with"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_coworker"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_environment"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_primary_cause"/>
+        <Class IRI="#Environmental_Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_symptom"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_traveled_to"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_at_risk_for"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_close_relative_of"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_diagnosed_with"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_distant_relative_of"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_environment_of"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_exposed_to"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_related_to"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#lives_at"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#lives_with"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#works_at"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#affects"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#bleeding_in"/>
+        <Class IRI="#Body_part"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contaminated_with"/>
+        <Class IRI="#Chemical_substance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#feels_pain_in"/>
+        <Class IRI="#Body_part"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_contact_with"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_coworker"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_environment"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_primary_cause"/>
+        <Class IRI="#Chemical_substance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_symptom"/>
+        <Class IRI="#Symptom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_traveled_to"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_at_risk_for"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_close_relative_of"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_diagnosed_with"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_distant_relative_of"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_environment_of"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_exposed_to"/>
+        <Class IRI="#Chemical_substance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_related_to"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#lives_at"/>
+        <Class IRI="#Home"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#lives_with"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#works_at"/>
+        <Class IRI="#Work_place"/>
+    </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#is_environment_of"/>
+            <ObjectProperty IRI="#is_diagnosed_with"/>
+            <ObjectProperty IRI="#has_primary_cause"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#contaminated_with"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#works_at"/>
+            <ObjectProperty IRI="#contaminated_with"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#is_exposed_to"/>
+    </SubObjectPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#name"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#BMI"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CA125"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CRP"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#LDL"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#age"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#creatinine"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_fever"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#height"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#needs_psychological_consultation"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#premenopausal"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#smoker"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#temperature"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#weight"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#BMI"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CA125"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CRP"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#LDL"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#age"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#creatinine"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_fever"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#height"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="rdf:PlainLiteral"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#needs_psychological_consultation"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#premenopausal"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#smoker"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#temperature"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#weight"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>exposure to chemicals</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_diagnosed_with"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#d"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Environmental_Disease"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_primary_cause"/>
+                <Variable IRI="#d"/>
+                <Variable IRI="#c"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_exposed_to"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#c"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>at risk for environmental disease</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#p1"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_diagnosed_with"/>
+                <Variable IRI="#p1"/>
+                <Variable IRI="#d"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Environmental_Disease"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_environment"/>
+                <Variable IRI="#p1"/>
+                <Variable IRI="#e1"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#p2"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_environment"/>
+                <Variable IRI="#p2"/>
+                <Variable IRI="#e2"/>
+            </ObjectPropertyAtom>
+            <SameIndividualAtom>
+                <Variable IRI="#e1"/>
+                <Variable IRI="#e2"/>
+            </SameIndividualAtom>
+            <DifferentIndividualsAtom>
+                <Variable IRI="#p1"/>
+                <Variable IRI="#p2"/>
+            </DifferentIndividualsAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_at_risk_for"/>
+                <Variable IRI="#p2"/>
+                <Variable IRI="#d"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>ddx - female reproductive organ cancer</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Female"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#feels_pain_in"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#abdomin"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#CA125"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#ca125"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#ca125"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">46</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_diagnosed_with"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#female_reproductive_organ_cancer"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>at risk for CHD (women)</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Female"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#BMI"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#bmi"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#bmi"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+            </BuiltInAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#premenopausal"/>
+                <Variable IRI="#p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#age"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">55</Literal>
+            </BuiltInAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#smoker"/>
+                <Variable IRI="#p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#LDL"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#ldl"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#ldl"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">160</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_at_risk_for"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#coronary_heart_disease"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>at risk for hereditary disease</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_diagnosed_with"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#d"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Hereditary"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_close_relative_of"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#r"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#r"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_at_risk_for"/>
+                <Variable IRI="#r"/>
+                <Variable IRI="#d"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>irreflexive (inherently transitive)</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Lives with</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#p1"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#lives_at"/>
+                <Variable IRI="#p1"/>
+                <Variable IRI="#h1"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Home"/>
+                <Variable IRI="#h1"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Home"/>
+                <Variable IRI="#h2"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#p2"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#lives_at"/>
+                <Variable IRI="#p2"/>
+                <Variable IRI="#h2"/>
+            </ObjectPropertyAtom>
+            <DifferentIndividualsAtom>
+                <Variable IRI="#p1"/>
+                <Variable IRI="#p2"/>
+            </DifferentIndividualsAtom>
+            <SameIndividualAtom>
+                <Variable IRI="#h1"/>
+                <Variable IRI="#h2"/>
+            </SameIndividualAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#lives_with"/>
+                <Variable IRI="#p1"/>
+                <Variable IRI="#p2"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>at risk for infectious disease</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#p1"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_diagnosed_with"/>
+                <Variable IRI="#p1"/>
+                <Variable IRI="#d"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Infectious_Disease"/>
+                <Variable IRI="#d"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#lives_with"/>
+                <Variable IRI="#p1"/>
+                <Variable IRI="#p2"/>
+            </ObjectPropertyAtom>
+            <DifferentIndividualsAtom>
+                <Variable IRI="#p1"/>
+                <Variable IRI="#p2"/>
+            </DifferentIndividualsAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_at_risk_for"/>
+                <Variable IRI="#p2"/>
+                <Variable IRI="#d"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>at risk for CHD (men)</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Male"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#BMI"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#bmi"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#bmi"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+            </BuiltInAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#age"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">45</Literal>
+            </BuiltInAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#smoker"/>
+                <Variable IRI="#p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#LDL"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#ldl"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#ldl"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">160</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_at_risk_for"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#coronary_heart_disease"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>transitive and irreflexive</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>related to</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#P1"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_related_to"/>
+                <Variable IRI="#P1"/>
+                <Variable IRI="#P2"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#P2"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_related_to"/>
+                <Variable IRI="#P2"/>
+                <Variable IRI="#P3"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#P3"/>
+            </ClassAtom>
+            <DifferentIndividualsAtom>
+                <Variable IRI="#P3"/>
+                <Variable IRI="#P2"/>
+            </DifferentIndividualsAtom>
+            <DifferentIndividualsAtom>
+                <Variable IRI="#P1"/>
+                <Variable IRI="#P3"/>
+            </DifferentIndividualsAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_related_to"/>
+                <Variable IRI="#P1"/>
+                <Variable IRI="#P3"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>needs psychological consultation</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_symptom"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#s"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Psychological"/>
+                <Variable IRI="#s"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#needs_psychological_consultation"/>
+                <Variable IRI="#p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>ddx - Dengue</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_fever"/>
+                <Variable IRI="#p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#bleeding_in"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#gums"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#bleeding_in"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#nose"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_traveled_to"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#Malaysia"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_symptom"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#pain"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_diagnosed_with"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#Dengue_fever"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>ddx - food poisoning</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#feels_pain_in"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#abdomin"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#CRP"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#crp"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#crp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">100</Literal>
+            </BuiltInAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_symptom"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#vomiting"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_diagnosed_with"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#food_poisoning"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>ddx - cadmium poisoning</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#creatinine"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#c"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">300</Literal>
+            </BuiltInAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#feels_pain_in"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#head"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#feels_pain_in"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#chest"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_symptom"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#cough"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_symptom"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#dizziness"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_symptom"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#weakness"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_diagnosed_with"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#cadmium_poisoning"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>ddx - Parkinson&apos;s disease</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_symptom"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#tremor"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_symptom"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#depression"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_symptom"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#anosmia"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#age"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#a"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#a"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_diagnosed_with"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual IRI="#Parkinsons_disease"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>fever</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#temperature"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#t"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#t"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">37</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#has_fever"/>
+                <Variable IRI="#p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>irreflexive (inherently transitive)</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>coworker</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#p1"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#p2"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Work_place"/>
+                <Variable IRI="#w1"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Work_place"/>
+                <Variable IRI="#w2"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#works_at"/>
+                <Variable IRI="#p1"/>
+                <Variable IRI="#w1"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#works_at"/>
+                <Variable IRI="#p2"/>
+                <Variable IRI="#w2"/>
+            </ObjectPropertyAtom>
+            <DifferentIndividualsAtom>
+                <Variable IRI="#p1"/>
+                <Variable IRI="#p2"/>
+            </DifferentIndividualsAtom>
+            <SameIndividualAtom>
+                <Variable IRI="#w1"/>
+                <Variable IRI="#w2"/>
+            </SameIndividualAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#has_coworker"/>
+                <Variable IRI="#p1"/>
+                <Variable IRI="#p2"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>BMI</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#weight"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#w"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#height"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#h"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#pow">
+                <Variable IRI="#h2"/>
+                <Variable IRI="#h"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#divide">
+                <Variable IRI="#bmi"/>
+                <Variable IRI="#w"/>
+                <Variable IRI="#h2"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#BMI"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#bmi"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CA125</IRI>
+        <Literal>in U/mL (units per mL)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CRP</IRI>
+        <Literal>in mg/L</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LDL</IRI>
+        <Literal>in mg/dL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#anosmia</IRI>
+        <Literal>loss of sense of smell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#creatinine</IRI>
+        <Literal>in micromol/L</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#female_reproductive_organ_cancer</IRI>
+        <Literal xml:lang="en">Includes ovarian, endometrial, fallopian tube or paretoneal cancer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_primary_cause</IRI>
+        <Literal>only used as the primary cause of environmental diseases.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#height</IRI>
+        <Literal>in meters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#weight</IRI>
+        <Literal>in kg</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
