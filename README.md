@@ -16,20 +16,21 @@ Another point of interest is that the ontology also takes into account whether o
 The ontology is structured in the following way:
 * __Classes__
 
-![Classes](https://github.com/Dorsa-Arezooji/AutoDoc/blob/master/images/classes.png)
+<img src="images/classes.png">
 
 * __Object Properties__
 
-![Object Properties](https://github.com/Dorsa-Arezooji/AutoDoc/blob/master/images/obj_prop.png)
+<img src="images/obj_prop.png">
 
 * __Data Properties__
 
-![Data Properties](https://github.com/Dorsa-Arezooji/AutoDoc/blob/master/images/data_prop.png)
+<img src="images/data_prop.png">
 
 ## Results
 The concepts related to each patient/place/disease can be inferred by running the `Pellet` reasoner in `Protege`.
 For reference, here are the asserted and inferred concepts related to two patients:
 
-![A](https://github.com/Dorsa-Arezooji/AutoDoc/blob/master/images/patientA.png)
+<img src="images/patientA.png">
 
-![B](https://github.com/Dorsa-Arezooji/AutoDoc/blob/master/images/patientB.png)
+<img src="images/patientB.png">
+
